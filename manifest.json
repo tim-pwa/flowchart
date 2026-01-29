@@ -1,0 +1,41 @@
+{
+  "name": "逻辑表单",
+  "short_name": "逻辑表单",
+  "description": "一个功能强大的逻辑表单PWA应用",
+  "start_url": "/flowchart/",
+  "display": "standalone",
+  "background_color": "#ECF0F1",
+  "theme_color": "#4A90E2",
+  "orientation": "portrait-primary",
+  "scope": "/flowchart/",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "创建表单",
+      "short_name": "创建",
+      "description": "快速创建新表单",
+      "url": "/flowchart/?action=create",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
